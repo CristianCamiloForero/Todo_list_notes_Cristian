@@ -51,3 +51,5 @@ function FilterButtons({ filtro, setFiltro }) {
     </div>
   );
 }
+
+export default FilterButtons;
