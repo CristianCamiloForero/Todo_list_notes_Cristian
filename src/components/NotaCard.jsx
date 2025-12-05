@@ -79,3 +79,5 @@ function NotaCard({ nota, onEditar, onEliminar, onToggleEstado }) {
     </div>
   );
 }
+
+export default NotaCard;

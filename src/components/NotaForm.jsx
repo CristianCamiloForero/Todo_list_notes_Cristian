@@ -146,3 +146,5 @@ function NotaForm({ nota, onSubmit, onCancelar }) {
     </div>
   );
 }
+
+export default NotaForm;

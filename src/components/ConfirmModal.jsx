@@ -45,3 +45,6 @@ function ConfirmModal({ isOpen, onConfirm, onCancel }) {
     </div>
   );
 }
+
+
+export default ConfirmModal;
