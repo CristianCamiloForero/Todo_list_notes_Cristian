@@ -1,3 +1,10 @@
+import { useState, useEffect } from 'react';
+import { notasAPI } from './services/api';
+import NotaCard from './components/NotaCard';
+import NotaForm from './components/NotaForm';
+import FilterButtons from './components/FilterButtons';
+import ConfirmModal from './components/ConfirmModal';
+
 function App() {
   const [notas, setNotas] = useState([
     {
